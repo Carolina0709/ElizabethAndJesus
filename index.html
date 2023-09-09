@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Elizabeth ♡ Jesus Emanuel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--Libreria Animate on scroll-->
+  </head>
+
+  <body>
+    <!--Estructura del load, sus estilos estan en carrucel.css-->
+    <div class="loading__wrapper">
+      <div class="loader--img">
+        <img src="./imagenes/load.png" alt="" />
+      </div>
+      <div class="loader">
+        <span></span>
+      </div>
+    </div>
+
+    <!-- Estructura del carrucel-->
+    <div class="ctn-carrucel">
+      <div class="app">
+        <div class="cardList">
+          <button class="cardList__btn btn btn--left">
+            <div class="icon">
+              <svg>
+                <use xlink:href="#arrow-left"></use>
+              </svg>
+            </div>
+          </button>
+
+          <div class="cards__wrapper">
+            <div class="card current--card">
+              <div class="card__image">
+                <img src="./imagenes/imagen1.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="card next--card">
+              <div class="card__image">
+                <img src="./imagenes/imagen2.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="card previous--card">
+              <div class="card__image">
+                <img src="./imagenes/imagen3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <button class="cardList__btn btn btn--right">
+            <div class="icon">
+              <svg>
+                <use xlink:href="#arrow-right"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+
+        <div class="infoList">
+          <div class="info__wrapper">
+            <div class="info current--info">
+              <p class="text description">Elizabeth ♡ Jesus Emanuel</p>
+              <h4 class="text location">POR SIEMPRE</h4>
+            </div>
+
+            <div class="info next--info">
+              <p class="text description">14 ♡ Octubre ♡ 23</p>
+              <h4 class="text location">SAVE THE DATE</h4>
+            </div>
+
+            <div class="info previous--info">
+              <p class="text description">
+                "Si yo sé lo que es el amor, es por ti"
+              </p>
+              <h4 class="text location">♡ Te amo ♡</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="app__bg">
+          <div class="app__bg__image current--image">
+            <img src="./imagenes/imagen1.jpg" alt="" />
+          </div>
+          <div class="app__bg__image next--image">
+            <img src="./imagenes/imagen2.jpg" alt="" />
+          </div>
+          <div class="app__bg__image previous--image">
+            <img src="./imagenes/imagen3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <svg class="icons" style="display: none">
+      <symbol
+        id="arrow-left"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+      >
+        <polyline
+          points="328 112 184 256 328 400"
+          style="
+            fill: none;
+            stroke: #fff;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 48px;
+          "
+        />
+      </symbol>
+      <symbol
+        id="arrow-right"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+      >
+        <polyline
+          points="184 112 328 256 184 400"
+          style="
+            fill: none;
+            stroke: #fff;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 48px;
+          "
+        />
+      </symbol>
+    </svg>
+
+    <!--Estructura del banner-->
+    <div class="container-banner">
+      <div class="container">
+        <h1 class="mb-3">¡Nos casamos!</h1>
+        <p class="mb-5">
+          Con la bendición de Dios y en compañia de nuestros padres:
+        </p>
+        <div class="row">
+          <div class="col-6">
+            <p>Sergio Aceves Hernandez ✟</p>
+            <p>Luz Elena Castellanos Hernandez ✟</p>
+          </div>
+          <div class="col-6">
+            <p>Manuel Vera Martín</p>
+            <p>María Mercedes Sanchez Martín</p>
+          </div>
+        </div>
+        <p class="mb-4 mt-4">Y nuestros padrinos:</p>
+        <div class="row">
+          <div class="col-6">
+            <p>Cruz Edgardo de León Trujillo</p>
+            <p>María del Carmen Aceves Castellanos</p>
+          </div>
+          <div class="col-6">
+            <p>Francisco Javier Casillas de la Torre</p>
+            <p>Cinthya Guadalupe Gómez Franco</p>
+          </div>
+        </div>
+        <div class="container-banner-img">
+          <img src="./imagenes/imagen4.jpg" alt="" />
+        </div>
+
+        <p class="mt-4">
+          Después de 5 años felices de noviazgo decidimos extender y compartir
+          nuetra felicidad al contraer matrimonio y nos complace que seas parte
+          de ese dia tan especial para nosotros.
+        </p>
+      </div>
+    </div>
+    <!--Estructura de la cuenta regresiva-->
+    <div class="container-cuenta pb-5">
+      <div class="container">
+        <div class="container-title">
+          <h2>♡ Ya solo faltan ♡</h2>
+        </div>
+        <div class="row p-5 mt-2">
+          <div class="col-3">
+            <div id="item-cuenta-dias" class="item-cuenta"></div>
+            <div class="item-tabla-nombre mt-1">Días</div>
+          </div>
+          <div class="col-3">
+            <div id="item-cuenta-horas" class="item-cuenta"></div>
+            <div class="item-tabla-nombre mt-1">Horas</div>
+          </div>
+          <div class="col-3">
+            <div id="item-cuenta-minutos" class="item-cuenta"></div>
+            <div class="item-tabla-nombre mt-1">Minutos</div>
+          </div>
+          <div class="col-3">
+            <div id="item-cuenta-segundos" class="item-cuenta"></div>
+            <div class="item-tabla-nombre mt-1">Segundos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Estructura de lugar-->
+    <div class="container-lugar">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#9eb38490"
+          fill-opacity="1"
+          d="M0,288L30,245.3C60,203,120,117,180,85.3C240,53,300,75,360,90.7C420,107,480,117,540,154.7C600,192,660,256,720,245.3C780,235,840,149,900,112C960,75,1020,85,1080,106.7C1140,128,1200,160,1260,197.3C1340,235,1380,277,1410,298.7L1440,340L1440,340L1410,340C1380,340,1340,340,1260,340C1200,340,1140,340,1080,340C1020,340,960,340,900,340C840,340,780,340,720,340C660,340,600,340,540,340C480,340,420,340,360,340C300,340,240,340,180,340C120,340,60,340,30,340L0,340Z"
+        ></path>
+        <path
+          fill="#9eb38499"
+          fill-opacity="1"
+          d="M0,288L30,293.3C60,299,120,309,180,277.3C240,245,300,171,360,138.7C420,107,480,117,540,101.3C600,85,660,43,720,42.7C780,43,840,85,900,90.7C960,96,1020,64,1080,90.7C1140,117,1200,203,1260,245.3C1340,288,1380,288,1410,288L1440,288L1440,340L1410,340C1380,340,1340,340,1260,340C1200,340,1140,340,1080,340C1020,340,960,340,900,340C840,340,780,340,720,340C660,340,600,340,540,340C480,340,420,340,360,340C300,340,240,340,180,340C120,340,60,340,30,340L0,340Z"
+        ></path>
+        <path
+          fill="#9eb384"
+          fill-opacity="1"
+          d="M0,160L30,160C60,160,120,160,180,165.3C240,171,300,181,360,170.7C420,160,480,128,540,117.3C600,107,660,117,720,149.3C780,181,840,235,900,229.3C960,224,1020,160,1080,122.7C1140,85,1200,75,1260,80C1340,85,1380,107,1410,117.3L1440,128L1440,340L1410,340C1380,340,1340,340,1260,340C1200,340,1140,340,1080,340C1020,340,960,340,900,340C840,340,780,340,720,340C660,340,600,340,540,340C480,340,420,340,360,340C300,340,240,340,180,340C120,340,60,340,30,340L0,340Z"
+        ></path>
+      </svg>
+      <div>
+        <div class="container container-lugar">
+          <h2 class="mb-5">El gran día</h2>
+          <div class="row">
+            <div class="col-6 borde-left"></div>
+            <div class="col-6">
+              <div class="item-lugar-text" data-aos="zoom-out-left">
+                <img data-aos="zoom-out-left" src="./imagenes/ceremonia.png" />
+                <h3 class="mt-3 mb-2">CEREMONIA</h3>
+                <p>
+                  <span>6:00 pm</span> En la Parroquia de nuestra señora de
+                  Guadalupe
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary mt-4"
+                  onclick="window.location.href='https://goo.gl/maps/Q1UvCTriujTq8hpx5';"
+                >
+                  UBICACIÓN
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row pb-5">
+            <div class="col-6 borde-left">
+              <div class="item-lugar-text" data-aos="zoom-out-right">
+                <img src="./imagenes/recepcion.png" />
+                <h3 class="mt-3 mb-2">RECEPCIÓN</h3>
+                <p><span>8:00 pm</span> Salón Antaria</p>
+                <p>Donde hemos reservado <span>2</span> lugares en tu honor</p>
+                <button
+                  onclick="window.location.href='https://goo.gl/maps/qA58ZvCuxTk1cLvY6';"
+                  class="btn btn-outline-primary mt-4"
+                >
+                  UBICACIÓN
+                </button>
+              </div>
+            </div>
+            <div class="col-6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-asistencia">
+      <div class="container">
+        <div class="item-asistencia">
+          <h2 class="mb-4">♡ Confirmación de asistencia ♡</h2>
+          <p class="mb-2">
+            Confirma tu asistencia dando click en confirmar para enviar WhatsApp
+          </p>
+          <button
+            onclick="window.location.href='https://acortar.link/GO1RVf';"
+            class="btn btn-outline-primary mt-4"
+          >
+            CONFIRMAR
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container-historia p-5">
+      <div class="container">
+        <h3 class="mb-5">
+          "Cuando te das cuenta que quieres pasar el resto de tu vida con
+          alguien, deseas que el resto de tu vida comience cuanto antes"
+        </h3>
+        <h2 class="mb-5">Nuestra Historia de Amor</h2>
+
+        <video
+          class="item-historia-video1 d-lg-none"
+          src="./videos/historia.mp4"
+          type="video/mp4"
+          playsinline
+          autoplay
+          muted
+          loop
+        ></video>
+
+        <video
+          class="item-historia-video2 d-none d-lg-block"
+          src="./videos/historia1.mp4"
+          type="video/mp4"
+          playsinline
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+    </div>
+    <div class="container-recomendaciones p-5">
+      <div class="container">
+        <h2 class="mt-2 mb-3">♡ Nuestras recomendaciones ♡</h2>
+        <p class="p-3">No olvides utilizar nuestro hashtag</p>
+        <h3 class="pb-5">#Elizabeth&Jesus</h3>
+        <div class="row">
+          <div class="col-4 d-none d-lg-block"></div>
+          <div id="carouselExampleIndicators" class="carousel slide col-lg-4">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carrusel-card">
+                  <img
+                    src="./imagenes/codigoMujer.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="sugerencia-text">
+                    <h2 class="p-3">DRESS CODE MUJERES</h2>
+                    <p>Formal - Vestido</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carrusel-card">
+                  <img
+                    src="./imagenes/codigoHombre.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="sugerencia-text">
+                    <h2 class="p-3">DRESS CODE HOMBRES</h2>
+                    <p>Formal - Traje</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carrusel-card">
+                  <img
+                    src="./imagenes/regalos.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="sugerencia-text">
+                    <h2 class="p-3">SUGERENCIA DE REGALOS</h2>
+                    <p>
+                      Nuestro mejor regalo es su presencia, pero si desean
+                      darnos algo, pueden ayudarnos con nuestro sueño de ahorrar
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="col-4 d-none d-lg-block"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-despedida">
+      <h2>¡Los esperamos!</h2>
+    </div>
+    <!--Librerias para usar el carrucel primario-->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/cuenta.js"></script>
+    <!--Libreria Animate on scroll-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Inicializar el script de la libreria-->
+    <script>
+      AOS.init();
+    </script>
+    <!--Para usar bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const myCarouselElement = document.querySelector("#myCarousel");
+
+      const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 2000,
+        touch: false,
+      });
+    </script>
+  </body>
+</html>
