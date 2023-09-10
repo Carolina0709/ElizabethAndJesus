@@ -5,11 +5,13 @@
 .container-banner p {
   text-align: center;
   font-family: "Poiret One", cursive;
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 h1 {
   font-family: "Satisfy", cursive;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #435334;
 }
 .container-banner-img {
@@ -46,7 +48,7 @@ h1 {
 .container-cuenta .container-title h2 {
   text-align: center;
   font-family: "Poiret One", cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .container-cuenta .item-cuenta,
 .item-tabla-nombre {
@@ -54,14 +56,14 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-family: "Satisfy", cursive;
   color: #435334;
 }
 
 .item-tabla-nombre {
   font-family: "Poiret One", cursive;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 /*Estilos de lugar*/
@@ -73,7 +75,7 @@ h1 {
 }
 .container-lugar h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Satisfy", cursive;
   color: #fff;
 }
@@ -102,11 +104,14 @@ h1 {
   text-align: center;
   width: 90%;
   font-family: "Poiret One", cursive;
+  font-size: 1.5rem;
+  color: #fff;
 }
 .item-lugar-text h3,
 .item-lugar-text span {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  color: #fff;
 }
 .item-lugar-text .btn-outline-primary {
   color: #435334;
@@ -143,7 +148,7 @@ h1 {
 
 .item-asistencia h2 {
   font-family: "Poiret One", cursive;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #faf1e4;
   font-weight: bold;
   text-align: center;
@@ -151,8 +156,9 @@ h1 {
 .item-asistencia p {
   color: #faf1e4;
   font-family: "Poiret One", cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
+  margin: 3rem;
 }
 .item-asistencia button {
   color: #9eb384;
@@ -160,6 +166,8 @@ h1 {
   font-family: "Poiret One", cursive;
   font-weight: bold;
   letter-spacing: 1px;
+  font-size: 2rem;
+  padding: 2rem 3rem;
 }
 .item-asistencia button:hover {
   background-color: #9eb384;
@@ -179,12 +187,13 @@ h1 {
   color: #435334;
   font-family: "Poiret One", cursive;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  margin: 2rem 0;
 }
 .container-historia h2 {
   font-family: "Satisfy", cursive;
   color: #435334;
-  font-size: 2rem;
+  font-size: 3.5rem;
   text-align: center;
 }
 .container-historia video {
@@ -199,20 +208,21 @@ h1 {
   font-family: "Poiret One", cursive;
   font-weight: bold;
   color: #435334;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 .container-recomendaciones p,
 .container-recomendaciones h3 {
   font-family: "Poiret One", cursive;
   color: #435334;
-  font-size: 1.2rem;
+  font-size: 2.5rem;
   text-align: center;
+  margin: 2rem 0;
 }
 
 .container-recomendaciones h3 {
   font-weight: bold;
-  font-size: 1.5;
+  font-size: 2.5rem;
 }
 .carousel-inner {
   border-radius: 15px;
@@ -224,7 +234,7 @@ h1 {
 .carrusel-card {
   background-color: #fff;
   border-radius: 15px;
-  min-height: 500px;
+  min-height: 700px;
 }
 .carousel-control-next,
 .carousel-control-prev {
@@ -238,11 +248,11 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 250px;
+  height: 400px;
   padding: 1rem 0;
 }
 .carrusel-card h2 {
-  font-size: 1.2rem;
+  font-size: 2.5rem;
 }
 .carrusel-card p {
   width: 90%;
@@ -269,6 +279,6 @@ h1 {
 .container-despedida {
   font-family: "Satisfy", cursive;
   color: #9eb384;
-  font-size: 2.5rem;
+  font-size: 8rem;
   text-align: center;
 }
