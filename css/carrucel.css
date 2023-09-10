@@ -83,7 +83,7 @@ button:focus {
   height: auto;
 }
 .cardList__btn {
-  --btn-size: 35px;
+  --btn-size: 55px;
   width: var(--btn-size);
   height: var(--btn-size);
   position: absolute;
@@ -218,7 +218,7 @@ button:focus {
 }
 .info .location {
   --mg-left: 40px;
-  --text-size-offset: 0.12;
+  --text-size-offset: 0.2;
   font-weight: 600;
   margin-left: var(--mg-left);
   margin-bottom: calc(var(--mg-left) / 2);
@@ -243,7 +243,7 @@ button:focus {
   height: 2px;
 }
 .info .description {
-  --text-size-offset: 0.065;
+  --text-size-offset: 0.099;
   font-weight: 500;
 }
 .info.current--info {
