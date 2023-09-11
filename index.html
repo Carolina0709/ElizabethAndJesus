@@ -13,6 +13,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <!--Libreria Animate on scroll-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -28,6 +32,12 @@
       <div class="loader">
         <span></span>
       </div>
+    </div>
+
+    <!--Estructura para el boton de musica-->
+    <div class="container-music">
+      <button class="reproductor"><i class="bi bi-volume-up-fill"></i></button>
+      <audio src=""></audio>
     </div>
 
     <!-- Estructura del carrucel-->
@@ -174,7 +184,7 @@
         </div>
 
         <p class="mt-4">
-          Después de 5 años felices de noviazgo decidimos extender y compartir
+          Después de 10 años felices de noviazgo decidimos extender y compartir
           nuetra felicidad al contraer matrimonio y nos complace que seas parte
           de ese dia tan especial para nosotros.
         </p>
@@ -421,6 +431,16 @@
       const carousel = new bootstrap.Carousel(myCarouselElement, {
         interval: 2000,
         touch: false,
+      });
+    </script>
+    <script>
+      let boton = document.querySelector(".reproductor");
+      let audioEtiqueta = document.querySelector("audio");
+
+      boton.addEventListener("click", () => {
+        audioEtiqueta.setAttribute("src", "./audios/contigo-quiero.mp3");
+        audioEtiqueta.play();
+        console.log(`Reproduciendo: ${audioEtiqueta.src}`);
       });
     </script>
   </body>
