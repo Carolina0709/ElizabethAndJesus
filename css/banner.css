@@ -10,9 +10,15 @@
   justify-content: center;
   align-items: center;
 }
+
 .container-music i {
   color: #faf1e4;
-  font-size: 3rem;
+  font-size: 5rem;
+}
+@media only screen and (min-width: 1000px) {
+  .container-music i {
+    font-size: 2rem;
+  }
 }
 .container-banner {
   background-color: #faf1e4;
