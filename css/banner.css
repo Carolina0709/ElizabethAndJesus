@@ -146,7 +146,9 @@ h1 {
   background-color: #9eb384;
   color: #fff;
 }
-
+svg{
+	display: block;
+}
 /*Estilos para asistencia */
 .container-asistencia {
   height: 80vh;
