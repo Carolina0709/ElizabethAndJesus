@@ -88,7 +88,7 @@ h1 {
   background-color: #faf1e4;
 }
 .container-lugar div {
-  background-color: #9eb384;
+  background-color: #435334;
 }
 .container-lugar h2 {
   text-align: center;
@@ -103,7 +103,7 @@ h1 {
   padding: 0;
 }
 .borde-left {
-  border-right: 4px solid #435334;
+  border-right: 4px solid #9eb384;
   display: flex;
   justify-content: flex-end;
 }
@@ -131,14 +131,14 @@ h1 {
   color: #fff;
 }
 .item-lugar-text .btn-outline-primary {
-  color: #435334;
-  border-color: #435334;
+  color: #9eb384;
+  border-color: #9eb384;
   font-family: "Poiret One", cursive;
   font-weight: bold;
   letter-spacing: 1px;
 }
 .item-lugar-text .btn-outline-primary:hover {
-  background-color: #435334;
+  background-color: #9eb384;
   color: #fff;
 }
 
@@ -282,7 +282,7 @@ h1 {
 /*Estilos para la despedida*/
 .container-despedida {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../imagenes/imagen4.jpg");
   background-position: center;
   background-repeat: no-repeat;
