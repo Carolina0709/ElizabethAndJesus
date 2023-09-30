@@ -286,8 +286,8 @@ h1 {
 
 /*Estilos para la despedida*/
 .container-despedida {
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../imagenes/imagen4.jpg");
   background-position: center;
   background-repeat: no-repeat;
